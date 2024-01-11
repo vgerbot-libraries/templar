@@ -1,0 +1,16 @@
+[package]
+name = "templar"
+version = "0.1.0"
+edition = "2021"
+license-file = "LICENSE"
+keywords = ["template", "webassembly"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+parsel="0.12.0"
+
+[lib]
+crate-type = ["lib"]
+
+[badges]
+maintenance = { status = "actively-developed" }
